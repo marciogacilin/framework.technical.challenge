@@ -23,6 +23,6 @@ namespace NumberDecomposition
 
         public int[] Dividers() => _decomposition.OrderBy(i => i).ToArray();
 
-        public int[] Primes() => _decomposition.OrderBy(i => i).ToList().AllowPrimes();
+        public int[] Primes() => _decomposition.OrderBy(i => i).AllowPrimes();
     }
 }

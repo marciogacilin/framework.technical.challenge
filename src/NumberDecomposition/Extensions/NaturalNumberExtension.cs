@@ -28,7 +28,7 @@ namespace NumberDecomposition.Extensions
             return totalDivisions == 2;
         }
 
-        public static int[] AllowPrimes(this List<int> elements)
+        public static int[] AllowPrimes(this IEnumerable<int> elements)
         {
             List<int> primes = new List<int>();
             foreach (var item in elements)

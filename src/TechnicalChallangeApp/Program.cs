@@ -14,6 +14,7 @@ namespace TechnicalChallangeApp
             Console.WriteLine($"Número de Entrada: {number}");
             Console.WriteLine($"Números Divisores: {string.Join(", ", decomposition.Dividers())}");
             Console.WriteLine($"Divisores Primos: {string.Join(", ", decomposition.Primes())}");
+            Console.ReadKey();
         }
 
         static int RequestNumber()
