@@ -6,7 +6,7 @@ Aplicação do tipo console cujo objetivo é receber a entrada de um número e d
 Projeto class library que contém o serviço responsável pela tarefa de decompor um número informado e exibir seus divisores, incluindo os números primos
 
 ## TechnicalChallangeApp
-Projeto do tipo console que interage com o usuário, solicitando ao mesmo o input de um valor inteiro.
+Projeto do tipo console que interage com o usuário, solicitando ao mesmo a entrada de um valor inteiro que será passado para o serviço responsável pela decomposição.
 
 ## Instalando o projeto
 Clone o repositório

@@ -1,6 +1,6 @@
 ﻿namespace NumberDecomposition.Interfaces
 {
-    public interface IDecomposition
+    public interface IDecompositionService
     {
         void Decompose(int number);
         int[] Primes();

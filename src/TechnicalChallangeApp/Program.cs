@@ -9,11 +9,11 @@ namespace TechnicalChallangeApp
         static void Main(string[] args)
         {
             int number = RequestNumber();
-            IDecomposition decomposition = new NaturalNumber();
-            decomposition.Decompose(number);
+            IDecompositionService decompositionService = new NaturalNumberService();
+            decompositionService.Decompose(number);
             Console.WriteLine($"Número de Entrada: {number}");
-            Console.WriteLine($"Números Divisores: {string.Join(", ", decomposition.Dividers())}");
-            Console.WriteLine($"Divisores Primos: {string.Join(", ", decomposition.Primes())}");
+            Console.WriteLine($"Números Divisores: {string.Join(", ", decompositionService.Dividers())}");
+            Console.WriteLine($"Divisores Primos: {string.Join(", ", decompositionService.Primes())}");
             Console.ReadKey();
         }
 

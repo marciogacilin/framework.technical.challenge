@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace NumberDecomposition
 {
-    public class NaturalNumber : IDecomposition
+    public class NaturalNumberService : IDecompositionService
     {
         private List<int> _decomposition = new List<int>();
 
